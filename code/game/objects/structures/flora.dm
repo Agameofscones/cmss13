@@ -75,6 +75,15 @@ PLANT_CUT_MACHETE = 3 = Needs at least a machete to be cut down
 	icon = 'icons/obj/structures/props/pinetrees.dmi'
 	icon_state = "pine_1"
 
+/obj/structure/flora/tree/orb_tree
+	name = "orb tree"
+	desc = "An oddly colored tree."
+	icon = 'icons/obj/structures/props/campbell/trees.dmi'
+	icon_state = "orb_tree"
+	unslashable = TRUE
+	unacidable = TRUE
+	pixel_y = 26
+
 /obj/structure/flora/tree/pine/xmas
 	name = "xmas tree"
 	icon = 'icons/obj/structures/props/pinetrees.dmi'
@@ -156,6 +165,30 @@ ICE GRASS
 /obj/structure/flora/grass/desert/heavy
 	icon_state = "heavygrass_1"
 
+/obj/structure/flora/grass/campbell
+	icon = 'icons/obj/structures/props/campbell/flora.dmi'
+	icon_state = "sparsegrass"
+
+/obj/structure/flora/grass/campbell/heavy
+	icon_state = "fullgrass"
+
+/obj/structure/flora/grass/campbell/red
+	icon_state = "sparsegrass_r"
+
+/obj/structure/flora/grass/campbell/red/heavy
+	icon_state = "fullgrass_r"
+
+/obj/structure/flora/grass/campbell/leafy
+	icon_state = "leafybush"
+
+/obj/structure/flora/grass/campbell/leafy/red
+	icon_state = "leafybush_r"
+
+/obj/structure/flora/grass/campbell/pale_bush
+	icon_state = "palebush_1"
+
+/obj/structure/flora/grass/campbell/pale_bush/sunny
+	icon_state = "sunnybush"
 /*
 
 	TALLGRASS - SPREADS FIRES
@@ -243,6 +276,16 @@ ICE GRASS
 	fire_flag = FLORA_BURN_SPREAD_ONCE
 
 /obj/structure/flora/grass/tallgrass/jungle/corner
+	icon_state = "tallgrass_corner"
+	overlay_type = "tallgrass_overlay_corner"
+	center = FALSE
+
+/obj/structure/flora/grass/tallgrass/maroon
+	color = COLOR_G_MAROON
+	icon_state = "tallgrass"
+	desc = "A large swathe of off colored grasses"
+
+/obj/structure/flora/grass/tallgrass/maroon/corner
 	icon_state = "tallgrass_corner"
 	overlay_type = "tallgrass_overlay_corner"
 	center = FALSE

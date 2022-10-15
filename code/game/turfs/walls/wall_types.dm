@@ -593,6 +593,16 @@
 	desc = "Just like in the orange box! This one is indestructible."
 	hull = 1
 
+//CAMPBELL WALLS
+
+/turf/closed/wall/campbell/rock
+	name = "shattered rock wall"
+	desc = "Pushed up from down below, and beaten down by the winds from above."
+	icon = 'icons/turf/walls/campbell/campbell_walls.dmi'
+	icon_state = "rock_border"
+	walltype = WALL_CAMPBELL_ROCK
+	hull = 1
+
 //KUTJEVO DESERT WALLS / SHARED TRIJENT TILESET
 
 /turf/closed/wall/kutjevo/rock

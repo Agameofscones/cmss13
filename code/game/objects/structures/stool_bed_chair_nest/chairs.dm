@@ -236,6 +236,26 @@
 	name = "wooden chair"
 	desc = "Old is never too old to not be in fashion."
 
+/obj/structure/bed/chair/bench
+	icon_state = "bench"
+	name = "modern bench"
+	desc = "Designed by a committee of 27."
+
+/obj/structure/bed/chair/bench/slat
+	icon_state = "bench_alt0"
+
+/obj/structure/bed/chair/bench/stool
+	icon_state = "bench_alt1"
+
+/obj/structure/bed/chair/bench/red
+	icon_state = "bench_red"
+
+/obj/structure/bed/chair/bench/red_slat
+	icon_state = "bench_red_alt0"
+
+/obj/structure/bed/chair/bench/red_stool
+	icon_state = "bench_red_alt1"
+
 /obj/structure/bed/chair/comfy
 	name = "comfy chair"
 	desc = "A chair with leather padding and adjustable headrest. You could probably sit in one of these for ages."

@@ -358,6 +358,7 @@
 #define WALL_KUTJEVO_ROCK_BORDER "rock_border"
 #define WALL_KUTJEVO_COLONY "colony"
 #define WALL_KUTJEVO_COLONYR "colonyr"
+#define WALL_CAMPBELL_ROCK "rock_border"
 #define WALL_DEVWALL "devwall"
 #define WALL_DEVWALL_R "devwall_r"
 #define WALL_HUNTERSHIP "metal"//DMI specific name

@@ -185,6 +185,25 @@
 	icon_state = "wire_rail"
 	climb_delay = CLIMB_DELAY_SHORT
 
+/obj/structure/barricade/handrail/campbell
+	icon_state = "campbell_0"
+	climb_delay = CLIMB_DELAY_SHORT
+	barricade_hitsound = 'sound/effects/glassbreak1.ogg'
+
+/obj/structure/barricade/handrail/campbell/glass
+	icon_state = "campbell_0"
+
+/obj/structure/barricade/handrail/campbell/glass_b
+	icon_state = "campbell_1"
+
+/obj/structure/barricade/handrail/campbell/wire
+	icon_state = "campbell_2"
+	barricade_hitsound = 'sound/effects/grillehit.ogg'
+
+/obj/structure/barricade/handrail/campbell/metal
+	icon_state = "campbell_3"
+	barricade_hitsound = 'sound/effects/metalhit.ogg'
+
 /obj/structure/barricade/handrail/sandstone
 	name = "sandstone handrail"
 	icon_state = "hr_sandstone"

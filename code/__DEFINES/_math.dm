@@ -25,6 +25,7 @@
 #define COLOR_G_ICE     "#C7EDDE" //faded cyan
 #define COLOR_G_DES     "#FF7C1C" //bright orange
 #define COLOR_G_JUNG    "#64AA6E" //faded green
+#define COLOR_G_MAROON	"#df3560" //maroon
 
 #define LEFT 1
 #define RIGHT 2
