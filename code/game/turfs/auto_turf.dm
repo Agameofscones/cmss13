@@ -122,7 +122,8 @@
 //campbell purple sand
 /turf/open/auto_turf/sand_purple
 	layer_name = list("pale dirt", "pale sand", "pale rocky sand", "this layer does not exist", "call a coder")
-	icon_state = "campbell_0"
+	icon_state = "sand_0"
+	icon = 'icons/turf/floors/campbell/auto_sand_campbell.dmi'
 /turf/open/auto_turf/sand_purple/insert_self_into_baseturfs()
 	baseturfs += /turf/open/auto_turf/sand_purple/layer0
 
@@ -130,15 +131,15 @@
 	return DIRT_TYPE_SAND
 
 /turf/open/auto_turf/sand_purple/layer0 //still have to manually define the layers for the editor
-	icon_state = "campbell_0"
+	icon_state = "sand_0"
 	bleed_layer = 0
 
 /turf/open/auto_turf/sand_purple/layer1
-	icon_state = "campbell_1"
+	icon_state = "sand_1"
 	bleed_layer = 1
 
 /turf/open/auto_turf/sand_purple/layer2
-	icon_state = "campbell_1_1"
+	icon_state = "sand_1_1"
 	bleed_layer = 1
 	variant = 1
 	variant_prefix_name = "rocky"
